@@ -1,0 +1,17 @@
+html, body, #jaas-container { height: 100%; }
+
+.loading-info-container{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.lic-open{
+    display: flex;
+}

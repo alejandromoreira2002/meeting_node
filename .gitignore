@@ -1,0 +1,5 @@
+.env
+config/keys
+node_modules
+views/index.html
+peticiones.rest

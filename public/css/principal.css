@@ -1,0 +1,45 @@
+.meeting-alert-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    z-index: 50;
+}
+
+.mac-open{
+    display: flex;
+}
+
+.meeting-alert-content{
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+}
+
+.meeting-alert-header{
+    display: flex;
+    justify-content: space-between;
+    height: 18%;
+    padding: 10px;
+    font-size: 15pt;
+    background-color: #2b3035;
+    color: #fff;
+}
+
+.meeting-alert-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 82%;
+}
+
+.btn-malert-close{
+    color: white;
+    font-size: 18pt;
+    background-color: transparent;
+    border: none;
+}
